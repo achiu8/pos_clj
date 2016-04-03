@@ -15,7 +15,9 @@
                  [cljsjs/react "0.14.3-0"]
                  [cljsjs/react-dom "0.14.3-1"]
                  [org.omcljs/om "1.0.0-alpha31"]
-                 [sablono "0.6.2"]]
+                 [sablono "0.6.2"]
+                 [secretary "1.2.3"]
+                 [org.clojure/core.async "0.2.374"]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
             [lein-environ "1.0.1"]]
